@@ -24,12 +24,9 @@ public static void main (String[] args) {
 	
 	seleccionUsuario = mi.mostrarMenuYSeleccion(comunicacionTeclado);
 	switch(seleccionUsuario) {
-		case 0:
-		System.out.print("[INFO] Se ejecuta caso 0");
-		cerrarMenu = true;
-		break;
 		case 1:
-		System.out.print("[INFO] Se ejecuta caso 1");
+		System.out.print("[Cerrando]");
+		cerrarMenu = true;
 		break;
 		case 2:
 		System.out.print("[INFO] Se ejecuta caso 2");
@@ -42,6 +39,9 @@ public static void main (String[] args) {
 		break;
 		case 5:
 		System.out.print("[INFO] Se ejecuta caso 5");
+		break;
+		case 6:
+		System.out.print("[INFO] Se ejecuta caso 6");
 		break;
 		}
 	 }
